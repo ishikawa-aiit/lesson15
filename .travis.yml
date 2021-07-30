@@ -1,5 +1,5 @@
 langage: bash
 script: 
-  - echo hello
+  - echo "hello"
   - ./same-test.sh
 
