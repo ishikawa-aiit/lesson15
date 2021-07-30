@@ -1,0 +1,5 @@
+langage: bash
+script: 
+  - echo hello
+  - ./same-test.sh
+
