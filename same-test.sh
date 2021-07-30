@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "same" > /tmp/$$-ans
+echo "not same" > /tmp/$$-ans
 ./same.sh a a > /tmp/$$-result
 diff /tmp/$$-ans /tmp/$$-result || exit 1
 
